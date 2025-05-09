@@ -1,54 +1,94 @@
 ---
+title: "Data-Cut-off (DCO) process as a tool in R"
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+> **This R package significantly simplifies the DCO process in clinical trials by replacing complex, error-prone SAS macros with a clean, configurable, and extensible workflow in R.**
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
+## Overview
 
-# dco
+Clinical trials rely heavily on timely and precise Data Cut-Off (DCO) processes to ensure both participant safety and the validity of trial outcomes. The DCO marks the date after which no new data are considered for a specific analysis. It is a critical component in the ongoing evaluation of safety profiles and efficacy, particularly during interim analyses or final reporting.
 
-<!-- badges: start -->
-<!-- badges: end -->
+Traditionally, the DCO process has been implemented using SAS macros, which, while robust, can be time-consuming to debug and rigid to customize. With the rise of open-source tools in the clinical domain, R has become an increasingly attractive alternative for clinical programmers.
 
-The goal of dco is to ...
+This project introduces an R package designed specifically to manage the DCO process in compliance with industry standards. The tool streamlines the filtering and transformation of clinical datasets based on a specified DCO date using a user-friendly, YAML-configurable interface.
+
+## Key Features
+
+- **YAML-driven configuration**: Define datasets, date variables, and transformation rules without modifying the code.
+- **Predefined DCO methods**: Apply common DCO transformations out-of-the-box.
+- **Custom method support**: Integrate your own filtering logic when needed.
+- **Flexible architecture**: Easily extend or adapt to new data standards or formats.
+- **Time-saving automation**: Eliminate the need for manual filtering scripts or debugging SAS macros.
 
 ## Installation
 
-You can install the development version of dco like so:
+Make sure required packages are installed:
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```r
+install.packages(c("dplyr", "lubridate", "rlang", "yaml"))
 ```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
+Then, if you have access to the local package:
+```r
 library(dco)
-## basic example code
+```
+# How to Use
+## Step 1: Create a Configuration Template
+Run the following function to generate a YAML configuration file in your working directory:
+```r
+create_config_file()
+```
+This file allows you to specify:
+
+- The datasets to process
+
+- Date variables and DCO methods
+
+- Input and output paths
+
+- The DCO date
+
+Actual representation of it looks like this:
+
+```yaml
+# -----------------------
+# General configuration
+# -----------------------
+general_info:
+  input_path: "path/to/your/raw_data"      # <-- Set the input folder path
+  output_path: "path/to/your/output_data"  # <-- Set the output folder path
+  dco_date: "YYYY-MM-DD"                   # <-- Enter your cut-off date here
+  out_file_suffix: "_filt.rds"             # <-- Suffix to append to filtered datasets
+
+# -----------------------
+# Rules for each dataset
+# -----------------------
+dco_rules:
+  dataset_name:                            # <-- Set the dataset name that needs DCO process
+    - method: method_name                  # <-- Set the method name 
+      var: [variables_affected]            # <-- Set variable names that need to be cutted
+
+
+# -----------------------
+# Date variable mapping
+# -----------------------
+dat_variable_list:
+  dataset_name:                            # <-- Set the dataset name that needs DCO process
+    - variable name                        # <-- Set date variable names
+ yaml: content
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+## Step 2: Perform the DCO Process
+Once your config.yaml file is completed with the appropriate parameters, execute:
 
-```{r cars}
-summary(cars)
+```r
+perform_dco("path/to/your/config.yaml")
 ```
+The specified datasets will be filtered according to the defined logic, and saved to the output path with modified variables as needed.
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
+# Sample example
+To demonstrate the overall workflow of the DCO process, a test script and example datasets are provided. These can be found in the file dco/tests/testthat/run_demo.R. Running this script will showcase how the datasets located in the raw_data directory are processed and filtered according to the DCO logic defined in the package.
 
-You can also embed plots, for example:
+## Author: Seda Bayadyan, Supervisor: Erik Torosyan
+A capstone project submitted in fulfillment of the requirements for the degree of Bachelor in Data Science
 
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
