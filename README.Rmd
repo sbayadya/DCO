@@ -90,5 +90,6 @@ The specified datasets will be filtered according to the defined logic, and save
 To demonstrate the overall workflow of the DCO process, a test script and example datasets are provided. These can be found in the file dco/tests/testthat/run_demo.R. Running this script will showcase how the datasets located in the raw_data directory are processed and filtered according to the DCO logic defined in the package.
 
 ## Author: Seda Bayadyan, Supervisor: Erik Torosyan
+### Contact info: seda_bayadyan@edu.aua.am
 A capstone project submitted in fulfillment of the requirements for the degree of Bachelor in Data Science
 
