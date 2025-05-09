@@ -1,0 +1,26 @@
+# -----------------------
+# General configuration
+# -----------------------
+general_info:
+  input_path: "path/to/your/raw_data"        # <-- Set the input folder path
+  output_path: "path/to/your/output_data"    # <-- Set the output folder path
+  dco_date: "YYYY-MM-DD"                     # <-- Enter your cut-off date here
+  out_file_suffix: "_filt.rds"               # <-- Suffix to append to filtered datasets, can be changed
+
+# -----------------------
+# Rules for each dataset
+# -----------------------
+dco_rules:
+  dataset_name:                              # <-- Set the dataset name that needs DCO process
+    - method: method_name                    # <-- Set the method name(e.g. filter_by_date, update_var, make_date_na)
+      var: [variables_affected]              # <-- Set variable names that need to be cutted
+
+
+# -----------------------
+# Date variable mapping
+# -----------------------
+dat_variable_list:
+  dataset_name:                              # <-- Set the dataset name that needs DCO process
+    - variable name                          # <-- Set date variable names
+
+

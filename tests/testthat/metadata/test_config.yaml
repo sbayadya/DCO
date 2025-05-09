@@ -1,0 +1,37 @@
+general_info:
+  input_path: "tests/testthat/raw_data"
+  output_path: "tests/testthat/raw_data"
+  dco_date: "2024-07-27"
+  out_file_suffix: "_filt.rds"
+
+dco_rules:
+  raw_ae:
+    - method: filter_by_date
+      var: [AE_START_DATE]
+
+    - method: update_var
+      var: [AE_START_DATE, AE_END_DATE, AE_OUTCOME]
+
+    - method: make_date_na
+      var: [AE_START_DATE, AE_END_DATE]
+
+  raw_lb:
+    - method: filter_by_date
+      var: [LB_DATE]
+
+  raw_cm:
+    - method: filter_by_date
+      var: [CM_START_DATE]
+
+    - method: make_date_na
+      var: [CM_START_DATE, CM_END_DATE]
+
+dat_variable_list:
+  raw_ae:
+    - AE_START_DATE
+    - AE_END_DATE
+  raw_lb:
+    - LB_DATE
+  raw_cm:
+    - CM_START_DATE
+    - CM_END_DATE

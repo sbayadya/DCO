@@ -1,0 +1,151 @@
+﻿SUBJECT_ID,AE_TERM,AE_START_DATE,AE_END_DATE,AE_SEVERITY,AE_RELATIONSHIP,AE_OUTCOME,AE_SERIOUS
+SUBJ001,Fatigue,6/20/2024,10/20/2024,Mild,Possibly Related,Not Recovered,No
+SUBJ001,Anxiety,7/4/2024,10/20/2024,Severe,Not Related,Recovered,No
+SUBJ002,Headache,6/20/2024,8/9/2024,Moderate,Not Related,Recovered,No
+SUBJ002,Abdominal Pain,20240630,9/8/2024,Moderate,Related,Not Recovered,No
+SUBJ002,Dizziness,04Aug2024,8/9/2024,Mild,Possibly Related,Not Recovered,No
+SUBJ003,Insomnia,20240608,20240706,Severe,Related,Not Recovered,Yes
+SUBJ003,Nausea,17Jul2024,28-Jul-24,Moderate,Not Related,Recovered,No
+SUBJ003,Headache,22Jul2024,7/26/2024 16:45,Mild,Possibly Related,Recovered,Yes
+SUBJ004,Insomnia,7/5/2024,20240727,Severe,Not Related,Recovered,Yes
+SUBJ004,Dizziness,20-Jul-24,29-07-2024,Mild,Possibly Related,Recovered,No
+SUBJ005,Abdominal Pain,20-Feb-24,20Jul2024,Moderate,Possibly Related,Recovered,Yes
+SUBJ005,Dizziness,13-06-2024,16-07-2024,Mild,Not Related,Recovering,Yes
+SUBJ005,Abdominal Pain,20-May-24,21-07-2024,Severe,Related,Not Recovered,No
+SUBJ005,Nausea,20-03-2024,20-09-2024,Moderate,Possibly Related,Recovered,Yes
+SUBJ005,Nausea,29-07-2024,08Oct2024,Severe,Related,Recovering,Yes
+SUBJ005,Anxiety,20-Jun-24,29Jul2024,Mild,Possibly Related,Recovered,Yes
+SUBJ006,Dizziness,20-Apr-24,8/6/2024,Moderate,Not Related,Recovering,No
+SUBJ006,Headache,20240606T12:54,20241008,Mild,Not Related,Recovering,No
+SUBJ006,Fatigue,6/24/2024,20241008,Moderate,Not Related,Recovered,Yes
+SUBJ006,Fatigue,20240723,8/9/2024,Mild,Related,Recovered,No
+SUBJ007,Fatigue,8/9/2024,20241020,Severe,Possibly Related,Not Recovered,Yes
+SUBJ008,Nausea,6/12/2024,20-08-2024,Moderate,Related,Recovered,Yes
+SUBJ008,Headache,7/31/2024,8/20/2024T13:01,Moderate,Not Related,Recovering,No
+SUBJ009,Anxiety,19-Jun-24,2024-Jul-12,Severe,Not Related,Not Recovered,No
+SUBJ009,Headache,2/7/2024,20-Apr-24,Moderate,Not Related,Recovered,No
+SUBJ009,Headache,16-07-2024,8/9/2024,Moderate,Not Related,Not Recovered,No
+SUBJ009,Abdominal Pain,13-Jun-24,20Jun2024,Severe,Related,Recovering,Yes
+SUBJ010,Abdominal Pain,20Jun2024,20Jul2024,Mild,Not Related,Recovering,Yes
+SUBJ010,Insomnia,28Jul2024,20-08-2024,Moderate,Possibly Related,Recovering,Yes
+SUBJ012,Fatigue,22-06-2024,8-Aug-24,Moderate,Related,Recovered,Yes
+SUBJ013,Fatigue,18-06-2024,7/20/2024,Mild,Possibly Related,Recovering,Yes
+SUBJ013,Anxiety,23-Jun-24,20Jun2024,Mild,Related,Recovered,No
+SUBJ014,Fatigue,17-Jun-24,20-Sep-24,Moderate,Possibly Related,Recovering,Yes
+SUBJ014,Anxiety,7/4/2024,02Aug2024,Mild,Related,Recovered,Yes
+SUBJ015,Anxiety,7/6/2024,9-Aug-24,Mild,Related,Recovering,No
+SUBJ016,Headache,6/10/2024,09Aug2024,Mild,Possibly Related,Recovering,No
+SUBJ016,Insomnia,7/1/2024,7/20/2024,Severe,Related,Not Recovered,Yes
+SUBJ016,Nausea,20240907,20Feb2024,Severe,Possibly Related,Recovering,Yes
+SUBJ016,Abdominal Pain,20240716,20240820,Mild,Possibly Related,Recovering,Yes
+SUBJ017,Anxiety,6/10/2024,3-Aug-24,Moderate,Related,Recovered,Yes
+SUBJ017,Headache,6/19/2024,05Aug2024,Severe,Not Related,Recovering,No
+SUBJ018,Abdominal Pain,3/6/2024,20240420,Moderate,Not Related,Recovered,No
+SUBJ018,Nausea,20241106,9-Aug-24,Moderate,Not Related,Not Recovered,Yes
+SUBJ018,Abdominal Pain,21-07-2024,08Aug2024,Moderate,Possibly Related,Recovering,Yes
+SUBJ018,Insomnia,20240520,20240625,Severe,Possibly Related,Recovering,Yes
+SUBJ018,Anxiety,20240320,20240727,Severe,Related,Not Recovered,Yes
+SUBJ019,Abdominal Pain,20240520,20240625,Moderate,Related,Not Recovered,No
+SUBJ020,Nausea,11-Jun-24,5-Aug-24,Severe,Related,Recovered,Yes
+SUBJ020,Headache,4/20/2024,21-06-2024,Moderate,Possibly Related,Recovered,No
+SUBJ020,Nausea,14Jul2024,20240807,Mild,Not Related,Not Recovered,No
+SUBJ021,Headache,20240621,8/4/2024,Severe,Possibly Related,Not Recovered,No
+SUBJ021,Headache,13-Jul-24,20240807,Moderate,Related,Recovering,Yes
+SUBJ021,Insomnia,25-07-2024,9/8/2024,Mild,Related,Recovered,Yes
+SUBJ022,Dizziness,10/8/2024,6/10/2024,Severe,Not Related,Not Recovered,No
+SUBJ022,Fatigue,6/14/2024,8/8/2024,Severe,Possibly Related,Not Recovered,Yes
+SUBJ022,Dizziness,14Jul2024,8/10/2024,Mild,Related,Recovering,No
+SUBJ023,Dizziness,6/27/2024,9/8/2024,Mild,Possibly Related,Recovering,No
+SUBJ024,Abdominal Pain,02Jun2024,20Jul2024,Mild,Related,Not Recovered,Yes
+SUBJ024,Insomnia,6/24/2024,8/7/2024,Severe,Related,Recovered,Yes
+SUBJ024,Headache,20Feb2024,7/1/2024,Mild,Possibly Related,Not Recovered,Yes
+SUBJ024,Anxiety,12Jul2024,02Aug2024,Moderate,Possibly Related,Not Recovered,Yes
+SUBJ025,Anxiety,22-Jun-24,03Aug2024,Mild,Related,Not Recovered,No
+SUBJ025,Headache,26Jun2024,20240807,Moderate,Not Related,Not Recovered,Yes
+SUBJ025,Fatigue,20-Mar-24,20240720,Moderate,Possibly Related,Not Recovered,No
+SUBJ025,Nausea,20-May-24,7/21/2024,Severe,Related,Recovered,No
+SUBJ026,Nausea,20240617,8/2/2024,Severe,Related,Not Recovered,No
+SUBJ026,Headache,4/20/2024,20240619,Mild,Related,Recovered,Yes
+SUBJ026,Anxiety,20-06-2024,20-Jul-24,Moderate,Possibly Related,Not Recovered,No
+SUBJ027,Nausea,6/25/2024,20-Aug-24,Severe,Not Related,Not Recovered,Yes
+SUBJ027,Fatigue,08Feb2024,20240628,Severe,Not Related,Recovering,No
+SUBJ028,Headache,18Jun2024,20241020,Mild,Possibly Related,Not Recovered,Yes
+SUBJ028,Anxiety,20Feb2024,7/7/2024,Mild,Not Related,Recovered,Yes
+SUBJ028,Abdominal Pain,18Jun2024,20Jun2024,Mild,Possibly Related,Recovering,No
+SUBJ028,Fatigue,08Feb2024,20240220,Severe,Possibly Related,Recovering,No
+SUBJ029,Insomnia,6/5/2024,8/6/2024,Moderate,Possibly Related,Recovered,No
+SUBJ029,Fatigue,04Aug2024,20Sep2024,Mild,Possibly Related,Recovered,No
+SUBJ029,Anxiety,8-Mar-24,6/20/2024,Mild,Possibly Related,Not Recovered,No
+SUBJ029,Headache,08Mar2024,07Aug2024,Severe,Not Related,Recovered,Yes
+SUBJ029,Insomnia,20240720,4/8/2024,Mild,Related,Not Recovered,No
+SUBJ030,Insomnia,14Jul2024,20240803,Mild,Possibly Related,Recovered,Yes
+SUBJ030,Dizziness,20-Jul-24,5/8/2024,Severe,Not Related,Not Recovered,Yes
+SUBJ031,Fatigue,22-06-2024,03Aug2024,Severe,Related,Recovering,Yes
+SUBJ031,Abdominal Pain,20240719,8/10/2024,Moderate,Not Related,Recovered,Yes
+SUBJ032,Abdominal Pain,6/19/2024,8/4/2024,Moderate,Related,Recovering,No
+SUBJ032,Insomnia,14-Jul-24,8/8/2024,Severe,Related,Recovering,No
+SUBJ032,Headache,21-07-2024,7/8/2024,Moderate,Related,Recovered,No
+SUBJ033,Fatigue,20240614,8/8/2024,Severe,Possibly Related,Recovering,No
+SUBJ033,Headache,20Jun2024,20240711,Severe,Not Related,Recovering,Yes
+SUBJ033,Abdominal Pain,20240715,8/3/2024,Moderate,Possibly Related,Not Recovered,No
+SUBJ034,Dizziness,20-04-2024,4-Jul-24,Mild,Not Related,Recovering,No
+SUBJ034,Fatigue,7/14/2024,20240803,Moderate,Related,Not Recovered,No
+SUBJ034,Abdominal Pain,21Jul2024,20-Aug-24,Severe,Possibly Related,Recovered,No
+SUBJ035,Dizziness,14-07-2024,20240208,Mild,Not Related,Not Recovered,Yes
+SUBJ035,Nausea,20-02-2024,16-Jul-24,Severe,Not Related,Not Recovered,Yes
+SUBJ036,Headache,09Aug2024,6/9/2024,Severe,Not Related,Not Recovered,Yes
+SUBJ036,Nausea,23-06-2024,20240802,Moderate,Related,Not Recovered,Yes
+SUBJ036,Insomnia,6/29/2024,8/9/2024,Severe,Related,Recovering,Yes
+SUBJ036,Nausea,20240711,20241020,Moderate,Possibly Related,Recovering,No
+SUBJ036,Headache,20240723,8-Aug-24,Severe,Not Related,Recovering,No
+SUBJ036,Fatigue,24Jul2024,8/5/2024,Severe,Related,Recovered,No
+SUBJ036,Dizziness,24-Jul-24,6-Aug-24,Severe,Related,Recovered,Yes
+SUBJ037,Anxiety,20240420,22-06-2024,Moderate,Not Related,Not Recovered,Yes
+SUBJ037,Fatigue,20-02-2024,08Aug2024,Mild,Not Related,Not Recovered,Yes
+SUBJ037,Headache,8/2/2024,21-Jul-24,Moderate,Related,Recovered,Yes
+SUBJ037,Nausea,29-Jul-24,20-Oct-24,Mild,Possibly Related,Not Recovered,Yes
+SUBJ037,Abdominal Pain,8-Jun-24,31-07-2024,Moderate,Possibly Related,Recovered,No
+SUBJ038,Anxiety,8/6/2024,20241120,Mild,Not Related,Recovering,No
+SUBJ038,Anxiety,6/25/2024,20-09-2024,Severe,Not Related,Recovered,No
+SUBJ038,Nausea,7/12/2024,8/8/2024,Severe,Not Related,Not Recovered,No
+SUBJ039,Nausea,20241006,20-Aug-24,Mild,Possibly Related,Recovered,Yes
+SUBJ039,Headache,3-Jul-24,8-Aug-24,Moderate,Possibly Related,Recovered,No
+SUBJ040,Insomnia,06Jun2024,20Sep2024,Moderate,Related,Recovering,Yes
+SUBJ040,Headache,20Jun2024,07Aug2024,Severe,Related,Recovering,Yes
+SUBJ040,Abdominal Pain,29-06-2024,8-Aug-24,Mild,Possibly Related,Not Recovered,Yes
+SUBJ040,Abdominal Pain,7-Mar-24,20240804,Severe,Possibly Related,Not Recovered,No
+SUBJ041,Anxiety,8/5/2024,12-Jul-24,Moderate,Possibly Related,Recovering,No
+SUBJ042,Insomnia,7/6/2024,20-Oct-24,Moderate,Possibly Related,Not Recovered,Yes
+SUBJ042,Headache,6/10/2024,8/6/2024,Mild,Not Related,Not Recovered,No
+SUBJ042,Insomnia,6/10/2024,20240920,Mild,Not Related,Recovered,No
+SUBJ042,Dizziness,20240420,20Jul2024,Severe,Possibly Related,Recovering,Yes
+SUBJ042,Headache,15-07-2024,4/8/2024,Mild,Not Related,Recovering,No
+SUBJ043,Anxiety,20240306,4/8/2024,Severe,Not Related,Recovering,No
+SUBJ043,Abdominal Pain,20240607,8/6/2024,Severe,Related,Not Recovered,No
+SUBJ043,Nausea,6/26/2024,06Aug2024,Severe,Possibly Related,Recovering,No
+SUBJ043,Insomnia,30Jun2024,04Aug2024,Mild,Not Related,Recovering,No
+SUBJ043,Anxiety,25Jul2024,20-Oct-24,Severe,Related,Not Recovered,Yes
+SUBJ044,Anxiety,15Jun2024,8/8/2024,Moderate,Not Related,Recovered,No
+SUBJ045,Nausea,6/25/2024,10Aug2024,Severe,Possibly Related,Recovering,Yes
+SUBJ045,Dizziness,20240508,30-Jun-24,Severe,Possibly Related,Recovering,Yes
+SUBJ045,Fatigue,6/7/2024,20-Sep-24,Mild,Related,Recovered,No
+SUBJ046,Anxiety,09Jul2024,3/8/2024,Moderate,Related,Recovering,Yes
+SUBJ046,Nausea,11-Jul-24,20-10-2024,Moderate,Not Related,Not Recovered,Yes
+SUBJ046,Abdominal Pain,17-Jul-24,10/8/2024,Moderate,Related,Not Recovered,No
+SUBJ046,Headache,18-07-2024,09Aug2024,Moderate,Possibly Related,Recovered,Yes
+SUBJ047,Dizziness,6/21/2024,20240720,Moderate,Related,Not Recovered,Yes
+SUBJ047,Fatigue,25-Jun-24,03Aug2024,Mild,Related,Recovered,Yes
+SUBJ047,Fatigue,8/6/2024,8-Jul-24,Mild,Not Related,Recovering,No
+SUBJ047,Headache,7/28/2024,08Aug2024,Mild,Not Related,Not Recovered,No
+SUBJ048,Dizziness,22Jun2024,8/10/2024,Moderate,Possibly Related,Recovered,No
+SUBJ049,Abdominal Pain,20May2024,8-Aug-24,Severe,Related,Recovering,No
+SUBJ049,Dizziness,16Jun2024,20240805,Mild,Not Related,Not Recovered,Yes
+SUBJ049,Abdominal Pain,28Jun2024,20-07-2024,Moderate,Possibly Related,Recovered,No
+SUBJ049,Abdominal Pain,20Apr2024,6/28/2024,Moderate,Not Related,Not Recovered,Yes
+SUBJ049,Anxiety,20-04-2024,6/28/2024,Moderate,Not Related,Not Recovered,Yes
+SUBJ049,Nausea,20240320,20-Jul-24,Severe,Possibly Related,Not Recovered,Yes
+SUBJ049,Nausea,7/16/2024,20240806,Moderate,Related,Recovering,Yes
+SUBJ050,Fatigue,27Jun2024,20-Jul-24,Mild,Related,Recovering,Yes
+SUBJ050,Fatigue,6/28/2024,20240806,Severe,Related,Recovered,No
+SUBJ050,Fatigue,7/22/2024,20240220,Moderate,Not Related,Recovered,No
+SUBJ050,Fatigue,26-07-2024,8/5/2024,Severe,Possibly Related,Recovered,No

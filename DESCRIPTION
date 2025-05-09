@@ -1,0 +1,22 @@
+Package: dco
+Type: Package
+Title: Clinical Data Cut-Off Utility
+Version: 0.1.0
+Authors@R: 
+    person("Seda", "Bayadyan", email = "seda_bayadyan@edu.aua.am", role = c("aut", "cre"))
+Maintainer: Seda Bayadyan <seda_bayadyan@edu.aua.am>
+Description: A lightweight R package to automate data cut-off (DCO) in clinical trial datasets 
+    using configurable YAML rules. Supports filtering, date anonymization, and outcome updates 
+    across multiple domains. Designed for flexible use in R projects or local pipelines.
+License: Apache-2.0
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    yaml,
+    rlang,
+    lubridate
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
